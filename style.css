@@ -1,50 +1,59 @@
-*{
+* {
     font-family: 'Lato', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+
 /* header start */
-.nav-bar{
+.nav-bar {
     display: flex;
     height: 5rem;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    justify-content:space-around;
+    justify-content: space-around;
 }
-.nav-bar h3{
+
+.nav-bar h3 {
     margin-top: 1rem;
     font-size: 30px;
     font-weight: 700;
 }
-.nav-bar img{
+
+.nav-bar img {
     width: 4rem;
     height: 2rem;
     padding-top: 1.5rem;
     align-items: center;
     padding-right: 0.75rem;
 }
-.nav_menu{
+
+.nav_menu {
     display: flex;
 }
-.logo{
+
+.logo {
     display: flex;
 }
-.navinfo{
+
+.navinfo {
     display: flex;
     text-decoration: none;
     padding-top: 1rem;
     text-align: center;
     vertical-align: middle;
 }
-.nav-bar li{
+
+.nav-bar li {
     display: flex;
     margin-left: 2rem;
     text-decoration: none;
 }
-.nav-bar a{
+
+.nav-bar a {
     color: black;
     text-decoration: none;
 }
-.follow-link{
+
+.follow-link {
     background-color: rgba(11, 2, 35, 0.10);
     border-radius: 8px;
     height: 28px;
@@ -54,35 +63,41 @@ font-family: 'Poppins', sans-serif;
     margin-top: 1.5rem;
     margin-left: 1rem;
 }
-.youtube-icon{
+
+.youtube-icon {
     padding-left: 5px;
     padding-right: 5px;
 }
+
 /* header end */
 /* banner section start */
-body{
+body {
     margin: auto;
 }
-.banner{
+
+.banner {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     width: 88%;
 }
-.banner-1{
+
+.banner-1 {
     background-image: url("images/Group\ 14.png");
     width: 40rem;
     background-size: contain;
     padding-top: 4rem;
     padding-left: 9rem;
 }
-.banner-1 h2{
+
+.banner-1 h2 {
     color: #0B0223;
     font-size: 38px;
     font-weight: 600;
     line-height: normal;
     margin-bottom: 0rem;
 }
-.banner-1 h1{
+
+.banner-1 h1 {
     margin-top: 0rem;
     margin-bottom: 2rem;
     font-size: 75px;
@@ -93,10 +108,12 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.banner-2 img{
+
+.banner-2 img {
     width: 35rem;
 }
-.btn-1{
+
+.btn-1 {
     margin-top: 1rem;
     border: none;
     border-radius: 48px;
@@ -110,7 +127,8 @@ body{
     font-weight: 600;
     line-height: normal;
 }
-.btn-2{
+
+.btn-2 {
     border: none;
     border-radius: 48px;
     background: #4EC5F7;
@@ -123,14 +141,15 @@ body{
     font-weight: 600;
     line-height: normal;
 }
+
 /* banner section end */
 /* 3rd section start */
-.online{
+.online {
     width: 100%;
     text-align: center;
 }
 
-.online-heading{
+.online-heading {
     color: #0B0223;
     text-align: center;
     font-size: 35px;
@@ -138,7 +157,8 @@ body{
     line-height: normal;
     margin-bottom: 0px;
 }
-.fun{
+
+.fun {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -149,7 +169,8 @@ body{
     font-weight: 700;
     line-height: normal;
 }
-.online-img{
+
+.online-img {
     display: flex;
     width: 85%;
     justify-content: space-around;
@@ -158,22 +179,24 @@ body{
     margin-top: 3rem;
 }
 
-.img1{
+.img1 {
     width: 250px;
     background: url("images/Rectangle\ 4.png");
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 18rem;
-    
+
 }
-.img2{
+
+.img2 {
     width: 250px;
     background: url("images/Rectangle\ 5.png");
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 18rem;
 }
-.img3{
+
+.img3 {
     width: 250px;
     background: url("images/Rectangle\ 7.png");
     background-repeat: no-repeat;
@@ -181,48 +204,57 @@ body{
     padding-top: 18rem;
 }
 
-.img4{
+.img4 {
     width: 250px;
     background: url("images/Rectangle\ 6.png");
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 18rem;
 }
-h3{
+
+h3 {
     font-weight: 700;
     font-size: 20px;
 }
 
 /* hover css style */
-.img1:hover .hover-1{
+.img1:hover .hover-1 {
     visibility: visible;
 }
+
 .img1:hover {
     border: 2px solid #FF42A5;
     border-radius: 15px;
 }
-.img2:hover .hover-2{
+
+.img2:hover .hover-2 {
     visibility: visible;
 }
-.img2:hover{
+
+.img2:hover {
     border: 2px solid #FF42A5;
     border-radius: 15px;
 }
-.img3:hover .hover-3{
+
+.img3:hover .hover-3 {
     visibility: visible;
 }
-.img3:hover{
+
+.img3:hover {
     border: 2px solid #FF42A5;
     border-radius: 15px;
 }
-.img4:hover .hover-4{
+
+.img4:hover .hover-4 {
     visibility: visible;
 }
+
 .img4:hover {
     border: 2px solid #FF42A5;
     border-radius: 15px;
 }
-.hover-1{
+
+.hover-1 {
     width: 255px;
     height: 288px;
     background-repeat: no-repeat;
@@ -231,7 +263,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:  #584b53;
+    background-color: #584b53;
     border-radius: 15px;
     right: 54.8rem;
     top: 49.8rem;
@@ -239,7 +271,8 @@ h3{
     cursor: pointer;
     visibility: hidden;
 }
-.hover-2{
+
+.hover-2 {
     width: 255px;
     height: 288px;
     background-repeat: no-repeat;
@@ -248,7 +281,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:  #584b53;
+    background-color: #584b53;
     border-radius: 15px;
     right: 38.8rem;
     top: 49.8rem;
@@ -256,7 +289,8 @@ h3{
     cursor: pointer;
     visibility: hidden;
 }
-.hover-3{
+
+.hover-3 {
     width: 255px;
     height: 288px;
     background-repeat: no-repeat;
@@ -273,7 +307,8 @@ h3{
     cursor: pointer;
     visibility: hidden;
 }
-.hover-4{
+
+.hover-4 {
     width: 255px;
     height: 288px;
     background-repeat: no-repeat;
@@ -282,11 +317,66 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:  #ef4ab3;
+    background-color: #ef4ab3;
     border-radius: 15px;
     right: 6.5rem;
     top: 49.8rem;
     opacity: .6;
     cursor: pointer;
     visibility: hidden;
+}
+
+/* 4th section start */
+.playinfo {
+    display: flex;
+    width: 85%;
+    margin-top: 5rem;
+    justify-content: space-between;
+    height: 600px;
+}
+.play-img{
+    width: 635px;
+    height: 650px;
+    position: relative;
+    background-image: url("images/Rectangle\ 55.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.play-img img{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    right: 7rem;
+    padding-top: 20rem;
+}
+
+.playtext{
+    height: 28rem;
+    width: 35rem;
+    text-align: end;
+    padding-top: 150px;
+    padding-right: 150px;
+ 
+}
+.playtext h1{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+.play-heading{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.playtext p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
 }
