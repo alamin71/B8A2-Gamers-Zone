@@ -1,1 +1,61 @@
-h1{background-color: cadetblue;}
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+/* header start */
+.nav-bar{
+    display: flex;
+    height: 5rem;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    justify-content:space-around;
+}
+.nav-bar h3{
+    margin-top: 1rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+.nav-bar img{
+    width: 4rem;
+    height: 2rem;
+    padding-top: 1.5rem;
+    align-items: center;
+    padding-right: 0.75rem;
+}
+.nav_menu{
+    display: flex;
+}
+.logo{
+    display: flex;
+}
+.navinfo{
+    display: flex;
+    text-decoration: none;
+    padding-top: 1rem;
+    text-align: center;
+    vertical-align: middle;
+}
+.nav-bar li{
+    display: flex;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+.nav-bar a{
+    color: black;
+    text-decoration: none;
+}
+.follow-link{
+    background-color: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    height: 28px;
+    width: 160px;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.youtube-icon{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* header end */
