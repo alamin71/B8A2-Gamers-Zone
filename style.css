@@ -123,3 +123,170 @@ body{
     font-weight: 600;
     line-height: normal;
 }
+/* banner section end */
+/* 3rd section start */
+.online{
+    width: 100%;
+    text-align: center;
+}
+
+.online-heading{
+    color: #0B0223;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+.fun{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.online-img{
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    margin-left: 5rem;
+    text-align: start;
+    margin-top: 3rem;
+}
+
+.img1{
+    width: 250px;
+    background: url("images/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 18rem;
+    
+}
+.img2{
+    width: 250px;
+    background: url("images/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 18rem;
+}
+.img3{
+    width: 250px;
+    background: url("images/Rectangle\ 7.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 18rem;
+}
+
+.img4{
+    width: 250px;
+    background: url("images/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 18rem;
+}
+h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* hover css style */
+.img1:hover .hover-1{
+    visibility: visible;
+}
+.img1:hover {
+    border: 2px solid #FF42A5;
+    border-radius: 15px;
+}
+.img2:hover .hover-2{
+    visibility: visible;
+}
+.img2:hover{
+    border: 2px solid #FF42A5;
+    border-radius: 15px;
+}
+.img3:hover .hover-3{
+    visibility: visible;
+}
+.img3:hover{
+    border: 2px solid #FF42A5;
+    border-radius: 15px;
+}
+.img4:hover .hover-4{
+    visibility: visible;
+}
+.img4:hover {
+    border: 2px solid #FF42A5;
+    border-radius: 15px;
+}
+.hover-1{
+    width: 255px;
+    height: 288px;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #584b53;
+    border-radius: 15px;
+    right: 54.8rem;
+    top: 49.8rem;
+    opacity: .6;
+    cursor: pointer;
+    visibility: hidden;
+}
+.hover-2{
+    width: 255px;
+    height: 288px;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #584b53;
+    border-radius: 15px;
+    right: 38.8rem;
+    top: 49.8rem;
+    opacity: .6;
+    cursor: pointer;
+    visibility: hidden;
+}
+.hover-3{
+    width: 255px;
+    height: 288px;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ef4ab3;
+    border-radius: 15px;
+    right: 22.4rem;
+    top: 49.8rem;
+    opacity: .6;
+    cursor: pointer;
+    visibility: hidden;
+}
+.hover-4{
+    width: 255px;
+    height: 288px;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #ef4ab3;
+    border-radius: 15px;
+    right: 6.5rem;
+    top: 49.8rem;
+    opacity: .6;
+    cursor: pointer;
+    visibility: hidden;
+}
