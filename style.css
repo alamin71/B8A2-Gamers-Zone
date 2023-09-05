@@ -483,3 +483,68 @@ h3 {
     padding-bottom: 2px;
 }
 /* 5th section end */
+/* footer section css*/
+.footer{
+    justify-content: center;
+    border: 1px solid black;
+    background: #0B0223;
+    height: 30rem;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        padding-top: 3.5rem;
+    }
+    .footer img{
+        width: 4rem;
+        height: 2rem;
+        padding-top: 1rem;
+        justify-content: center;
+        padding-right: 0.75rem;
+    }
+    .text1{
+        color: #e80b8f;
+    }
+    .text2{
+        color: #FFF;
+    }
+    .footer-link{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .footer-link a{
+        padding-left: 4rem;
+        color: #FFFFFF;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .foot-icon {
+        display: flex;
+        justify-content: center;
+    }
+    .foot-icon a{
+        padding-left: 3rem;
+        padding-top: 3rem;
+    }
+    .terms{
+        display: flex;
+        justify-content: center;
+    }
+    .terms a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.60);
+        padding-left: 3rem;
+        padding-top: 6rem;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .copywright{
+        padding-top: 2rem;
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 10px;
+        font-weight: 500;
+    }
