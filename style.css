@@ -635,5 +635,87 @@ h3 {
    .online-heading, .fun{
         font-size: 25px;
    }
+   .playinfo{
+    flex-direction: column;
+   }
+   .playtext, 
+   .playtext p{
+    width: 100%;
+    padding-top: 0rem;
+    padding-right: 0rem;
+    align-items: center;
+   }
+   .play-img{
+    width: 80%;
+    justify-content: center;
+    margin-left: 5rem;
+   }
+   .play-img img{
+    height: 120px;
+    width: 100px;
+    bottom: 100px;
+    right: 50px;
+   }
+   /* option button  */
+.option-btn button{
+    border: 1px solid black;
+    width: 7rem;
+}
+.option-btn span{
+    font-size: 8px;
+}
+.option-btn img{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+.option-btn{
+    margin-top: 50px;
+    padding-left: 1rem;
+    width: 26rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+/* footer */
+
+.footer{
+    width: 26rem;
+}
+.footer-link{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 95%;
+}
+.footer-link a{
+    padding-left: 0rem;
+}
+.footer-icon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+.footer-icon a{
+    width: 2rem;
+    padding: 2rem 0 0 .5rem;
+}
+.terms{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+    padding-top: 1rem;
+}
+.terms a{
+    padding-top: 1rem;
+}
+.copywright{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
 
 }
